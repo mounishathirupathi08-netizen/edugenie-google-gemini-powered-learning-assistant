@@ -1,0 +1,108 @@
+import { SubjectItem } from '../types';
+
+export const SUBJECTS: SubjectItem[] = [
+  {
+    id: 'math',
+    name: 'Mathematics',
+    icon: 'Calculator',
+    color: 'from-amber-500 to-orange-500',
+    description: 'Calculus, Algebra, Geometry, Statistics & Trigonometry',
+    sampleQuestions: [
+      'Why is the derivative of sin(x) equal to cos(x)? Step-by-step proof.',
+      'How do I find the eigenvalues and eigenvectors of a 2x2 matrix?',
+      'Explain Bayes Theorem with an intuitive real-world medical test analogy.',
+      'Solve this quadratic system: 2x^2 + 5x - 12 = 0 step-by-step.',
+    ],
+  },
+  {
+    id: 'physics',
+    name: 'Physics & Engineering',
+    icon: 'Atom',
+    color: 'from-cyan-500 to-blue-600',
+    description: 'Mechanics, Electromagnetism, Optics, Thermodynamics',
+    sampleQuestions: [
+      'Explain Bernoullis Principle and why airplane wings generate lift.',
+      'How does Lenzs law conserve energy in electromagnetic induction?',
+      'Calculate the escape velocity from Earth starting from gravitational potential energy.',
+      'Explain Special Relativity time dilation with the light clock thought experiment.',
+    ],
+  },
+  {
+    id: 'chemistry',
+    name: 'Chemistry & Biology',
+    icon: 'FlaskConical',
+    color: 'from-emerald-500 to-teal-600',
+    description: 'Organic Chemistry, Biochemistry, Genetics & Cellular Biology',
+    sampleQuestions: [
+      'Walk me through the difference between SN1 and SN2 reaction mechanisms.',
+      'Explain CRISPR-Cas9 gene editing mechanism and guide RNA role.',
+      'How does the electron transport chain create ATP via chemiosmosis?',
+      'Explain Le Chateliers principle when temperature and pressure change.',
+    ],
+  },
+  {
+    id: 'cs',
+    name: 'Computer Science & Coding',
+    icon: 'Code2',
+    color: 'from-violet-500 to-purple-600',
+    description: 'Python, Algorithms, Data Structures, Web Development & SQL',
+    sampleQuestions: [
+      'Explain Dijkstra shortest path algorithm with a small step-by-step graph example.',
+      'What is the difference between asynchronous event loops and multi-threading in Node.js?',
+      'How does Dynamic Programming solve the 0/1 Knapsack problem? Show the memoization table.',
+      'Explain SQL indexing (B-Trees) and why indexing speed up queries.',
+    ],
+  },
+  {
+    id: 'humanities',
+    name: 'History & Social Studies',
+    icon: 'Landmark',
+    color: 'from-rose-500 to-pink-600',
+    description: 'World History, Civics, Geography & Political Philosophy',
+    sampleQuestions: [
+      'What were the underlying systemic causes of World War I (MAIN framework)?',
+      'Compare and contrast Direct Democracy vs Representative Constitutional Republic.',
+      'Explain the socioeconomic impacts of the Industrial Revolution on urbanization.',
+      'How did the Silk Road shape cultural and economic exchange across Eurasia?',
+    ],
+  },
+  {
+    id: 'literature',
+    name: 'Literature & Languages',
+    icon: 'BookOpen',
+    color: 'from-indigo-500 to-purple-500',
+    description: 'Literary Analysis, Rhetorical Devices, Grammar & Composition',
+    sampleQuestions: [
+      'Analyze the symbolism of the green light in F. Scott Fitzgeralds The Great Gatsby.',
+      'How do I structure a persuasive thesis statement for an AP Literature essay?',
+      'Explain the difference between inductive and deductive rhetorical arguments.',
+      'What is dramatic irony and how does Shakespeare use it in Macbeth?',
+    ],
+  },
+  {
+    id: 'economics',
+    name: 'Economics & Business',
+    icon: 'TrendingUp',
+    color: 'from-teal-500 to-emerald-600',
+    description: 'Microeconomics, Macroeconomics, Monetary Policy & Finance',
+    sampleQuestions: [
+      'How does central bank interest rate manipulation control inflation?',
+      'Explain elasticity of demand and its relationship to total business revenue.',
+      'What is the Nash Equilibrium in game theory? Give the Prisoners Dilemma example.',
+      'Compare Comparative Advantage vs Absolute Advantage in international trade.',
+    ],
+  },
+  {
+    id: 'general',
+    name: 'General Academics & Study Skills',
+    icon: 'Sparkles',
+    color: 'from-fuchsia-500 to-rose-500',
+    description: 'Feynman Technique, Active Recall, Research Methods & Logic',
+    sampleQuestions: [
+      'How can I use the Feynman Technique to master complex concepts in 4 steps?',
+      'What is spaced repetition and what is the optimal review interval before exams?',
+      'How do I identify logical fallacies in academic research papers?',
+      'Help me design a realistic 30-day revision schedule for final exams.',
+    ],
+  },
+];
